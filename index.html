@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="content-language" content="ja">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>ポートフォリオ</title>
+    </head>
+    <body>
+        <header>
+            <div class="title">FeatherySlumber Portfolio</div>
+            <div class="links">
+                <a href="#about">概要</a>
+                <a href="#skill">スキル</a>
+                <a href="#products">製作物</a>
+            </div>
+        </header>
+        <main>
+            <section id="about">
+                <h1>概要</h1>
+                <p>静岡理工科大学情報学部コンピュータシステム学科3年
+                    主にC#で開発しています。特にWPFをよく使います。
+                    模型サークル所属、趣味はプラモデルや動画作成です。
+                </p>
+            </section>
+            <section>
+                <h1 id="skill">スキル</h1>
+                <ul>
+                    <li>資格
+                        <ul>
+                            <li>基本情報技術者</li>
+                            <li>応用情報技術者</li>
+                        </ul>
+                    </li>
+                    <li>言語
+                        <ul>
+                            <li>C#</li>
+                            <li>C</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                        </ul>
+                    </li>
+                    <li>他<ul>
+                        <li>WPF</li>
+                        <li>Unity</li>
+                    </ul></li>
+                </ul>
+            </section>
+            <section id="products">
+                <h1>製作物</h1>
+
+                <details class="card">
+                    <summary>
+                        <img class="card-pic" src="./resource/MLM.png">
+                        <div>
+                            <h2>MCRLogManager</h2>
+                            CSVファイルをグラフと表で表示するアプリ
+                        </div>
+                    </summary>
+                    <div>
+                        <div class="pro-lang">C#,WPF</div>
+                        <p>高校時代、マイコンカーラリーに参加していました。
+                            マイコンカーから各種センサーのデータなどをCSVファイルとして出力可能であり、これを解析するために作成しました。
+                        </p>
+                        <h3>機能</h3>
+                        <ul>
+                            <li>各列ごとにグラフ表示
+                                <ul>
+                                    <li>拡大縮小</li>
+                                </ul>
+                            </li>
+                            <li>検索機能
+                                <ul>
+                                    <li>グラフ、表へのハイライト</li>
+                                </ul>
+                            </li>
+                        </li>
+                    </div>
+                </details>
+
+                <details class="card">
+                    <summary>
+                        <img class="card-pic" src="./resource/MCC1.png"/>
+                        <div>
+                            <h2>模型サークルWebサイト</h2>
+                            サークルの共有資材などの管理サイト
+                        </div>
+                    </summary>
+                    <div>
+                        <div class="pro-lang">
+                            HTML/CSS,PHP,JavaScript
+                        </div>
+                        URL:<a href="http://modelcreativeclub.s223.xrea.com/index.php">http://modelcreativeclub.s223.xrea.com/index.php</a>
+                        <img src="./resource/MCC2.png"/>
+                        <p>サークルでは会費で購入した消耗品や工具などを自由に使うことができましたが、ちゃんとした管理がされていませんでした。
+                            また、コロナウィルスの影響も大きく、同時に活動できる人数に制限がかかった結果、
+                            「どの塗料の在庫があるのか？」や「そんな道具あったんだ」などメンバー間で情報の共有ができていない状態にあったため作成しました。
+                        </p>
+                    </div>
+                </details>
+
+                <details class="card">
+                    <summary>
+                        <img class="card-pic" src="./resource/game.png"/>
+                        <div>
+                            <h2>ゲーム</h2>
+                            Unityを使ってみたかったため作成
+                        </div>
+                    </summary>
+                    <div>
+                        <div class="pro-lang">C#,Unity</div>
+                        プレイ動画
+                        <video src="./resource/game.mp4" type="video/mp4" controls></video>
+                    </div>
+                </details>
+            </section>            
+        </main>
+    </body>
+</html>
