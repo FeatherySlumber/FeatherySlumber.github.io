@@ -116,7 +116,7 @@ section:first-child h1{
         flex-direction: row;
     }
     .card > summary::after{
-        align-self: center;
+        align-self: center!important;
     }
     .card-pic{
         width: var(--pic-displaySize)!important;
