@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="content-language" content="ja">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>ポートフォリオ</title>
+    </head>
+    <body>
+        <header>
+            <div class="title">FeatherySlumber Portfolio</div>
+            <div class="links">
+                <a href="#skill">スキル</a>
+                <a href="#products">製作物</a>
+            </div>
+        </header>
+        <main>
+            <section>
+                <h1>スキル</h1>
+                <ul>
+                    <li>言語
+                        <ul>
+                            <li>C#</li>
+                            <li>C</li>
+                            <li>Kotlin</li>
+                            <li>JavaScript</li>
+                            <li>PHP</li>
+                        </ul>
+                    </li>
+                    <li>他<ul>
+                        <li>WPF</li>
+                        <li>Jetpack Compose</li>
+                        <li>Unity</li>
+                        <li>Laravel</li>
+                    </ul></li>
+                </ul>
+            </section>
+            <section id="products">
+                <h1>製作物</h1>
+
+                <details class="card">
+                    <summary>
+                        <img class="card-pic" src="./resource/MLM.png">
+                        <div>
+                            <h2>MCRLogManager</h2>
+                            CSVファイルをグラフと表で表示するアプリ
+                        </div>
+                    </summary>
+                    <div>
+                        <div class="pro-lang">C#,WPF</div>
+                        <p>マイコンカーラリー(MCR)のために作成
+                            マイコンカーから出力できる各種センサーのデータなどを解析するために作成
+                        </p>
+                        <h3>機能</h3>
+                        <ul>
+                            <li>各列ごとにグラフ表示
+                                <ul>
+                                    <li>拡大縮小</li>
+                                </ul>
+                            </li>
+                            <li>検索機能
+                                <ul>
+                                    <li>グラフ、表へのハイライト</li>
+                                </ul>
+                            </li>
+                        </li>
+                    </div>
+                </details>
+
+                <details class="card">
+                    <summary>
+                        <img class="card-pic" src="./resource/game.png"/>
+                        <div>
+                            <h2>ゲーム</h2>
+                            Unityを使ってみたかったため作成
+                        </div>
+                    </summary>
+                    <div>
+                        <div class="pro-lang">C#,Unity</div>
+                        プレイ動画
+                        <video src="./resource/game.mp4" type="video/mp4" controls></video>
+                    </div>
+                </details>
+            </section>            
+        </main>
+    </body>
+</html>
